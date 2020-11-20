@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+}
+p {
+  font-family: sans-serif;
+  font-size: 170px;
+  color: rgb(0, 233, 89);
+  font-weight: bold;
+  padding: 10px;
+  border-width: 15px;
+  border-color: white;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  align-self: center;
+  align-items: center;
+
+  height: auto;
+  background: #161a2b;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
